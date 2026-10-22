@@ -4,13 +4,13 @@ ILMUcode brings ILMU AI models into Visual Studio Code's built-in Chat experienc
 
 You provide your own ILMU API key (BYOK). The extension stores it in VS Code `SecretStorage` and sends chat requests to the ILMU API. It does not provide inline code completion.
 
+See the [usage guide](USAGE.md) for installation, key management, and troubleshooting.
+
 ## Setup
 
 On first run, ILMUcode asks for an ILMU API key and stores it in VS Code `SecretStorage`. It then opens the Chat view. In the model picker, choose **ILMUcode**, then **ILMU GLM 5.3** or **ILMU GLM 5.3 Flash**, and send a prompt. The extension cannot select the model automatically, so confirm the model picker before sending.
 
 To open Chat later, run **ILMUcode: Start Chat** from the Command Palette. Use **ILMUcode: Set API Key** to add or replace your key, and **ILMUcode: Clear API Key** to remove it.
-
-To remove the saved key, run **ILMUcode: Clear API Key**.
 
 ## API
 

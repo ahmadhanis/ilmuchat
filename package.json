@@ -4,6 +4,11 @@
   "description": "Use ILMU AI chat models in VS Code Chat, with secure API key storage, streamed replies, image input, and Agent tool calls.",
   "version": "0.2.0",
   "publisher": "slumberjer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmadhanis/ilmuchat"
+  },
   "engines": {
     "vscode": "^1.127.0"
   },
